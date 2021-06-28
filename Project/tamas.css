@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:'iransans' !important;
+}
+
+span,h2,h3{
+	font-family:'iransans' !important;
+}
+
+
+
+
+
+html 
+{
+    scroll-behavior:smooth;
+}
+.container{
+	max-width: 1312px!important;
+}
+body
+{
+    overflow-x:hidden;
+	background-color: rgb(97, 15, 15);
+}
+
+.navbar{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}
+
+.navbar-brand{
+	position: fixed;
+    left: 0;
+    top: 6px;
+}
+.navbar-nav{
+	margin-right: -52px !important;
+}
+
+.navbar-brand span{
+	font-size: 15px;
+    float: right;
+    margin-top: 9px;
+}
+.navbar-brand i{
+padding-right: 10px;
+    font-size: 35px;
+    color: #2ecc71;
+
+}
+.navbar .nav-link
+{
+    font-size:14px;
+    text-transform:uppercase;
+    padding-left:1rem !important;
+	text-align: right;
+}
+.nav-item .active
+{
+    border-bottom:#2ecc71 1px solid;
+    border-top:#2ecc71 1px solid;
+
+}
+.nav-link{
+	font-size: 15px!important;
+	color: aliceblue!important;
+}
+.nav-link:hover{
+	border-bottom:#07D60A 2px solid; 
+	border-top: #07D60A 2px solid; 
+	font-size: 15px!important;
+
+}
+
+hr{
+	background-color: red;
+}
+.svg-wrapper {
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 4px;
+  stroke: #19f6e8;
+}
+
+.text1 {
+  color: #00ff2d;
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+.fa-angle-up{
+	font-size: 74px;
+    margin-left: 10px;
+    margin-top: -6px;
+}

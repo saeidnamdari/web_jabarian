@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:'iransans' !important;
+}
+
+span,h2,h3{
+	font-family:'iransans' !important;
+}
+
+
+
+
+
+html 
+{
+    scroll-behavior:smooth;
+}
+.container{
+	max-width: 1312px!important;
+}
+body
+{
+    overflow-x:hidden;
+	background-color: black;
+}
+
+.navbar{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}
+
+.navbar-brand{
+	position: fixed;
+    left: 0;
+    top: 6px;
+}
+.navbar-nav{
+	margin-right: -52px !important;
+}
+
+.navbar-brand span{
+	font-size: 15px;
+    float: right;
+    margin-top: 9px;
+}
+.navbar-brand i{
+padding-right: 10px;
+    font-size: 35px;
+    color: #2ecc71;
+
+}
+.navbar .nav-link
+{
+    font-size:14px;
+    text-transform:uppercase;
+    padding-left:1rem !important;
+	text-align: right;
+}
+.nav-item .active
+{
+    border-bottom:#2ecc71 1px solid;
+    border-top:#2ecc71 1px solid;
+
+}
+.nav-link{
+	font-size: 15px!important;
+	color: aliceblue!important;
+}
+.nav-link:hover{
+	border-bottom:#07D60A 2px solid; 
+	border-top: #07D60A 2px solid; 
+	font-size: 15px!important;
+
+}
+
+.carousel-item
+{
+    height:auto;
+}
+.carousel-indicators{
+	margin-left:265px!important;
+}
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+.img-fluid{
+	height: 350px;
+}
+/*khadamat*/
+h3 {
+  color: rgba(31,181,172,.9);
+}
+.text{
+	color: rgba(31,181,172,.9);
+	text-align: center;
+}
+/*khadamat*/
+
+.folded-corner:hover .text{
+	visibility: visible;
+	color: #000000;;
+}
+.Services-tab{
+	margin-top:20px;
+	
+
+}
+
+
+/*
+  nav link items
+*/
+.folded-corner{
+  padding: 25px 25px;
+	height: 300px;
+  position: relative;
+  font-size: 90%;
+  text-decoration: none;
+  color: #999; 
+  background: transparent;
+  transition: all ease .5s;
+  border: 1px solid rgba(31,181,172,.9);
+}
+.folded-corner:hover{
+	background-color: rgba(31,181,172,.9);
+}
+
+/*
+  paper fold corner
+*/
+
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd #000;
+  transition: all ease .3s;
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.folded-corner:hover:before {
+	background-color: #D00003;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+  
+}
+
+.service_tab_1{
+	background-color: #000;
+}
+.service_tab_1:hover .fa-icon-image{
+    color: #000;
+    transform: rotate(360deg) scale(1.5);
+}
+
+
+.fa-icon-image{
+	color: rgba(31,181,172,.9);
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    text-rendering: auto;
+    transition: all .65s linear 0s;
+    text-align: center;
+    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+}
+.darbarh{
+	color: aliceblue;
+}
+.table-dark{
+	margin-right: 8px;
+}
+#what{
+	margin-top:150px;
+
+}
+.blockquote-footer{
+	padding: 5px;
+	color: #00ffe9!important;
+	
+}
+.table-dark{
+	background-color: #000000!important;
+}
+/*--------------------
+4.2. Skills
+--------------------*/
+
